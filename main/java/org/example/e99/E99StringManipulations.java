@@ -18,7 +18,7 @@ public class E99StringManipulations {
         // Check if the string is a palindrome
 
         // Print "true" if the string is a palindrome, and "false" otherwise
-        if(user==b){
+        if(user.equalsIgnoreCase(b)){
             System.out.println("true");
         }else{
             System.out.println(false);
