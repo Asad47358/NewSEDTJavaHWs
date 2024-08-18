@@ -12,6 +12,8 @@ public class E104StringManipulations {
         String d =input.nextLine();
         String e =input.nextLine();
         String[] arr = new String[5];
+        System.out.println();
+        System.out.println();
 
        arr [0] = "John";
         arr [1] = "Jane";
