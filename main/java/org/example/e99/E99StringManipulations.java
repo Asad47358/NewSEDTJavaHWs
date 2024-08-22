@@ -13,15 +13,25 @@ public class E99StringManipulations {
         String user = input.nextLine();
 
         // Remove all spaces and convert the string to lowercase
-       String a= user.toLowerCase();
-       String b=a.replaceAll(" ","");
+          user= user.toLowerCase().replace(" "," ");
+        System.out.println(user);
         // Check if the string is a palindrome
-
+        StringBuilder reversdword = new StringBuilder(user);
+        reversdword = reversdword.reverse();
+        String toComp = reversdword.toString();
         // Print "true" if the string is a palindrome, and "false" otherwise
-        if(user.equalsIgnoreCase(b)){
-            System.out.println("true");
+
+        if(user.equals(toComp)){
+            System.out.println(true);
         }else{
             System.out.println(false);
         }
+
+
+
+        // Step 2: Create a Scanner object to read input from the console
+
+
+
     }
 }

@@ -17,6 +17,7 @@ public class E96StringManipulations {
         // If the input is "C", print "C is a procedural programming language"
         // If the input is "C++", print "C++ is a middle-level programming language"
         // For any other input, print "Doesn't match any programming language"
+
         if(user.equalsIgnoreCase("Java")){
             System.out.println("Java is a programming language");
         }else if(user.equalsIgnoreCase("C")){
@@ -26,5 +27,8 @@ public class E96StringManipulations {
         }else {
             System.out.println("Doesn't match any programming language");
         }
+
+
+
     }
 }

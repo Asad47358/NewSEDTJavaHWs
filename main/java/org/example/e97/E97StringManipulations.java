@@ -18,6 +18,7 @@ public class E97StringManipulations {
         // If the input is "firefox", "FIREFOX", or "FireFOX", print "Proceed with Firefox browser"
         // If the input is "IE", "ie", or "iE", print "Proceed with IE browser"
         // For any other input, print "Invalid browser"
+
         if(user.equalsIgnoreCase("chrome")){
             System.out.println("Proceed with Chrome browser");
         }else if(user.equalsIgnoreCase("firefox")){
@@ -27,5 +28,8 @@ public class E97StringManipulations {
         }else{
             System.out.println("Invalid browser");
         }
+
+
+
     }
 }
